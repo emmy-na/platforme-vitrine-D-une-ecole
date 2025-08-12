@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programmes - SimplonCode</title>
+    <link rel="stylesheet" href="./pg.css">
+</head>
+<body>
+     <nav class="navbar">
+      <div class="nav-container"><div>
+<img src="./logo.jpg" alt="">
+        <a href="acceuil.html" class="logo">SimplonCode</a>
+      </div>
+      
+        <ul class="nav-links">
+          <li><a href="acceuil.html">Accueil</a></li>
+          <li><a href="pg.html" class="active">Programmes</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="mobile-menu-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+  
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Nos Programmes de Formation</h1>
+            <p>Découvrez nos formations innovantes et ajoutez les vôtres</p>
+        </div>
+    </section>
+<div class="content">
+ 
+    <main class="main-content">
+    
+        <section class="add-programme-section">
+            <h2>➕ Ajouter un Nouveau Programme</h2>
+            <form id="addProgrammeForm" class="form-grid">
+                <div class="form-group">
+                    <label for="titre">Titre du programme *</label>
+                    <input type="text" id="titre" name="titre" required placeholder="Ex: Développement Web Full Stack">
+                </div>
+                
+                <div class="form-group">
+                    <label for="sousTitre">Sous-titre</label>
+                    <input type="text" id="sousTitre" name="sousTitre" placeholder="Ex: Écris le futur. Déploie ton talent.">
+                </div>
+                
+                <div class="form-group">
+                    <label for="duree">Durée *</label>
+                    <input type="text" id="duree" name="duree" required placeholder="Ex: 5 mois">
+                </div>
+                
+                <div class="form-group" style="grid-column: 1 / -1;">
+                    <label for="description">Description *</label>
+                    <textarea id="description" name="description" required placeholder="Décrivez le programme en détail..."></textarea>
+                </div>
+                
+                <div class="form-group" style="grid-column: 1 / -1;">
+                    <label for="competences">Compétences (séparées par des virgules) *</label>
+                    <input type="text" id="competences" name="competences" required placeholder="Ex: HTML5, CSS3, JavaScript, React">
+                </div>
+                
+                <button type="submit" class="add-btn">Ajouter le Programme</button>
+            </form>
+        </section>
+
+  
+        <section class="programmes-section">
+            <h2>Nos Formations</h2>
+            <div id="programmesContainer" class="programmes-grid"></div>
+        </section>
+    </main>
+</div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 SimplonCode. Tous droits réservés. | Réalisé par Hackeuse Digital</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script >
+       
+document.addEventListener('DOMContentLoaded', function() {
+    const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+    const navLinks = document.querySelector('.nav-links');
+    
+    if (mobileMenuBtn && navLinks) {
+        mobileMenuBtn.addEventListener('click', function() {
+            navLinks.classList.toggle('active');
+            
+           
+            this.classList.toggle('active');
+        });
+    }
+});
+    </script>
+</body>
+</html>

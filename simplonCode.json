@@ -1,0 +1,108 @@
+{
+  "programmes": [
+    {
+      "id": "1",
+      "titre": "Développement Web Full Stack",
+      "sousTitre": "Écris le futur. Déploie ton talent.",
+      "description": "Une formation immersive où vous apprenez à créer, tester, sécuriser et déployer des applications concrètes. À travers des projets réels, vous devenez un·e développeur·se polyvalent·e capable de concevoir et produire des logiciels robustes et efficaces.",
+      "duree": "5 mois",
+      "competences": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Git",
+        "API REST"
+      ]
+    },
+    {
+      "id": "2",
+      "titre": "Réseaux & Cybersécurité",
+      "sousTitre": "Connecté·e et protégé·e, à l'épreuve du cybermonde.",
+      "description": "Plongez dans l'architecture des réseaux et apprenez à sécuriser les infrastructures critiques. Cette formation vous prépare à défendre les systèmes contre les vulnérabilités, via des simulations pratiques d'audit et de pentesting.",
+      "duree": "6 mois",
+      "competences": [
+        "Sécurité réseau",
+        "Pentesting",
+        "Audit sécurité",
+        "Cryptographie",
+        "Firewall",
+        "SIEM",
+        "Forensic",
+        "ISO 27001"
+      ]
+    },
+    {
+      "id": "3",
+      "titre": "Intelligence Artificielle",
+      "sousTitre": "Donnez vie à l'intelligence artificielle.",
+      "description": "Explorez le monde fascinant de l'IA et du machine learning. Apprenez à créer des modèles intelligents, analyser des données complexes et développer des solutions innovantes pour résoudre des problèmes concrets.",
+      "duree": "4 mois",
+      "competences": [
+        "Python",
+        "Machine Learning",
+        "Deep Learning",
+        "TensorFlow",
+        "PyTorch",
+        "Data Analysis",
+        "Neural Networks",
+        "NLP"
+      ]
+    },
+    {
+      "id": "1",
+      "titre": "Développement Mobile",
+      "sousTitre": "Devenez un expert en applications mobiles.",
+      "description": "Apprenez à concevoir, développer et déployer des applications mobiles performantes sur Android et iOS en utilisant les technologies modernes.",
+      "duree": "4 mois",
+      "competences": [
+        "Java",
+        "Kotlin",
+        "Swift",
+        "React Native",
+        "UX/UI Mobile",
+        "Débogage",
+        "Publication d'applications"
+      ]
+    },
+    {
+      "id": "2",
+      "titre": "DevOps & Cloud",
+      "sousTitre": "Maîtrisez les environnements cloud et l'automatisation.",
+      "description": "Découvrez les pratiques DevOps, l'automatisation des déploiements, la gestion d'infrastructures cloud avec AWS, Azure ou Google Cloud.",
+      "duree": "5 mois",
+      "competences": [
+        "CI/CD",
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "Azure",
+        "Terraform",
+        "Ansible",
+        "Monitoring"
+      ]
+    },
+    {
+      "id": "3",
+      "titre": "Intelligence Artificielle",
+      "sousTitre": "Donnez vie à l'intelligence artificielle.",
+      "description": "Explorez le monde fascinant de l'IA et du machine learning. Apprenez à créer des modèles intelligents, analyser des données complexes et développer des solutions innovantes pour résoudre des problèmes concrets.",
+      "duree": "6 mois",
+      "competences": [
+        "Python",
+        "Machine Learning",
+        "Deep Learning",
+        "TensorFlow",
+        "PyTorch",
+        "Data Analysis",
+        "Neural Networks",
+        "NLP"
+      ]
+    }
+  ],
+  "inscriptions": [
+    {}
+  ]
+}

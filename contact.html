@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - SimplonCode</title>
+    <link rel="stylesheet" href="contact.css" />
+    <style></style>
+  </head>
+  <body>
+   
+    <nav class="navbar">
+      <div class="nav-container"><div>
+<img src="./logo.jpg" alt="">
+        <a href="acceuil.html" class="logo">SimplonCode</a>
+      </div>
+      
+        <ul class="nav-links">
+          <li><a href="acceuil.html">Accueil</a></li>
+          <li><a href="pg.html" class="active">Programmes</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="mobile-menu-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+   
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Contactez-nous</h1>
+        <p>
+          Une question ? Un projet ? Notre équipe est là pour vous accompagner
+        </p>
+      </div>
+    </section>
+
+
+    <main class="main-content">
+      <div class="container">
+      
+          <div class="contact-info">
+            <h2>Nos Coordonnées</h2>
+
+            <div class="contact-item">
+              <div class="contact-icon">📍</div>
+              <div class="contact-details">
+                <h3>Adresse</h3>
+                <p>123 Avenue Mohammed V<br />20000 Casablanca<br />Maroc</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">📞</div>
+              <div class="contact-details">
+                <h3>Téléphone</h3>
+                <p><a href="tel:+212522123456">+212 (0) 522 123 456</a></p>
+                <p><a href="tel:+212661234567">+212 (0) 661 234 567</a></p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">✉️</div>
+              <div class="contact-details">
+                <h3>Email</h3>
+                <p>
+                  <a href="mailto:info@simploncode.ma">info@simploncode.ma</a>
+                </p>
+                <p>
+                  <a href="mailto:admissions@simploncode.ma"
+                    >admissions@simploncode.ma</a
+                  >
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">🕒</div>
+              <div class="contact-details">
+                <h3>Horaires d'ouverture</h3>
+                <p>
+                  Lundi - Vendredi : 8h30 - 18h00<br />
+                  Samedi : 9h00 - 13h00<br />
+                  Dimanche : Fermé
+                </p>
+              </div>
+            </div>
+          </div>
+
+     
+          <div class="contact-form">
+            <h2>Envoyez-nous un message</h2>
+            <form id="contactForm">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="firstName">Prénom *</label>
+                  <input type="text" id="firstName" name="firstName" required />
+                </div>
+                <div class="form-group">
+                  <label for="lastName">Nom *</label>
+                  <input type="text" id="lastName" name="lastName" required />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="email">Email *</label>
+                  <input type="email" id="email" name="email" required />
+                </div>
+                <div class="form-group">
+                  <label for="phone">Téléphone</label>
+                  <input type="tel" id="phone" name="phone" />
+                </div>
+                <div class="form-group">
+                  <label for="dateNaissance"
+                    >Date de naissance <span class="required">*</span></label
+                  >
+                  <input
+                    type="date"
+                    id="dateNaissance"
+                    name="dateNaissance"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="genre"
+                    >Genre <span class="required">*</span></label
+                  >
+                  <select id="genre" name="genre" required>
+                    <option value="">Sélectionner...</option>
+                    <option value="homme">Homme</option>
+                    <option value="femme">Femme</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="ville"
+                    >Ville <span class="required">*</span></label
+                  >
+                  <select id="ville" name="ville" required>
+                    <option value="">Sélectionner...</option>
+                    <option value="Casablanca">Casablanca</option>
+                    <option value="Rabat">Rabat</option>
+                    <option value="Marrakech">Marrakech</option>
+                    <option value="Meknès">Meknès</option>
+                    <option value="Oujda">Oujda</option>
+                    <option value="Agadir">Agadir</option>
+                    <option value="ès">Fès</option>
+                    <option value="Tanger">Tanger</option>
+                    <option value="autre">Autre</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="situation"
+                    >Situation actuelle <span class="required">*</span></label
+                  >
+                  <select id="situationActuelle" name="situationActuelle" required>
+                    <option value="">Sélectionner...</option>
+                    <option value="Étudiant">Étudiant</option>
+                    <option value="Employé">Employé</option>
+                    <option value="Chômeur">Chômeur</option>
+                    <option value="Freelance">Freelance</option>
+                    <option value="Entrepreneur">Entrepreneur</option>
+                    <option value="autre">Autre</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="niveauEtude"
+                    >Niveau d'étude <span class="required">*</span></label
+                  >
+                  <select id="niveauEtude" name="niveauEtude" required>
+                    <option value="">Sélectionner...</option>
+                    <option value="niveauEtude">Baccalauréat</option>
+                    <option value="niveauEtude">Bac+2</option>
+                    <option value="niveauEtude">Bac+3</option>
+                    <option value="niveauEtude">Bac+4</option>
+                    <option value="niveauEtude">Bac+5</option>
+                    <option value="niveauEtude">Doctorat</option>
+                    <option value="autre">Autre</option>
+                  </select>
+                </div>
+                  <div class="form-group">
+                <label for="programme">Choisissez votre programme.</label>
+                <select id="programme" name="programme">
+                  <option value="">Sélectionnez un programme</option>
+                  <option value="developpement">
+                    Développement Web Full Stack
+                  </option>
+                  <option value="mobile">Développement Mobile</option>
+                  <option value="devops">DevOps</option>
+                  <option value="ia">Intelligence Artificielle</option>
+                  <option value="cyber">Cybersécurité</option>
+                </select>
+              </div>
+              </div>
+
+              <div class="form-group">
+                <label for="demande">Sujet de votre demande *</label>
+                <select id="demande" name="demande" required>
+                  <option value="">Choisissez un sujet</option>
+                  <option value="information">Demande d'information</option>
+                  <option value="entreprise">Partenariat entreprise</option>
+                  <option value="support">Support technique</option>
+                  <option value="autre">Autre</option>
+                </select>
+              </div>
+
+            
+
+              <div class="form-group">
+                <label for="message">Votre message *</label>
+                <textarea id="message" name="message"required placeholder="Décrivez votre projet ou votre demande en détail..."
+                ></textarea>
+              </div>
+
+              <button type="submit" class="submit-btn">
+                Envoyer le message
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Map Section -->
+        <div class="map-section">
+          <h2>Notre Localisation</h2>
+          <div class="map-container">
+            <div id="googlemap">
+              <img src="Capture 3.PNG" alt="" />
+            </div>
+            <div class="map-placeholder">
+              <h3>📍 SimplonCode Casablanca</h3>
+              <p>123 Avenue Mohammed V, 20000 Casablanca</p>
+              <p>Quartier des Affaires - Maarif</p>
+              <p style="margin-top: 1rem; color: #667eea">
+                <strong>Transports :</strong> Tramway ligne T1, Bus 10-15-20
+              </p>
+              <p style="color: #667eea">
+                <strong>Parking :</strong> Disponible sur site
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>
+          &copy; 2025 SimplonCode. Tous droits réservés. | Réalisé par Hackeuse
+          Digital
+        </p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="contact.js"></script>
+  </body>
+</html>
